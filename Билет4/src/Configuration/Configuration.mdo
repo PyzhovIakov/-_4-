@@ -36,6 +36,7 @@
     <key>ru</key>
     <value>Каркасная конфигурация для сдачи экзамена &quot;1С:Специалист&quot; по платформе &quot;1С:Предприятие 8&quot;</value>
   </detailedInformation>
+  <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
