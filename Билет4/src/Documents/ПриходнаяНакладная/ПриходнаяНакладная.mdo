@@ -67,21 +67,18 @@
   <registerRecords>AccumulationRegister.ОстаткиНоменклатуры</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="e5346aa8-c4b4-4b82-b4b0-f9ba3cd78b69">
-    <name>СуммаПоДокументу</name>
+  <attributes uuid="3d7d0575-7681-4fe3-bfc9-520f2b47c41d">
+    <name>Склад</name>
     <synonym>
       <key>ru</key>
-      <value>Сумма по документу</value>
+      <value>Склад</value>
     </synonym>
     <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>12</precision>
-        <scale>2</scale>
-      </numberQualifiers>
+      <types>CatalogRef.Склады</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
