@@ -48,6 +48,7 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.ОперативныйУчет</subsystems>
   <commonPictures>CommonPicture.ОперативныйУчет</commonPictures>
   <commonPictures>CommonPicture.БухгалтерскийУчет</commonPictures>
   <commonPictures>CommonPicture.Расчеты</commonPictures>
@@ -58,6 +59,7 @@
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.РасходнаяНакладная</documents>
   <documents>Document.НачислениеЗарплаты</documents>
@@ -69,6 +71,7 @@
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
   <informationRegisters>InformationRegister.ГрафикиРаботы</informationRegisters>
   <informationRegisters>InformationRegister.СведенияОСотрудниках</informationRegisters>
+  <informationRegisters>InformationRegister.ПриоритетСкладов</informationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиНоменклатуры</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СвойстваОбъектов</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыСубконто</chartsOfCharacteristicTypes>
