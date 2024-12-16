@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b5f2278-a523-4499-b1b8-ec64b05d5930">
+  <producedTypes>
+    <selectionType typeId="ba7a9772-0aab-44a4-9a16-a3108338dd92" valueTypeId="6dee2ab6-13d3-4821-bf76-c29ad743b535"/>
+    <listType typeId="c6801213-174d-4e35-8001-39b6fd140793" valueTypeId="ae1f198e-b408-44e0-9243-624af6b07418"/>
+    <managerType typeId="740ea52a-a2a5-4e04-bee1-531de6449516" valueTypeId="583040f0-0ae0-4933-a3f5-d1663d149fe7"/>
+    <recordSetType typeId="afd0eaab-eb08-4155-98d9-4e6e29f90cd0" valueTypeId="fd847a48-d5f3-46b1-b620-73d7811ed37f"/>
+    <recordKeyType typeId="b94a138f-53b4-4287-acc3-c9a1741dedfe" valueTypeId="9ce9c57b-cb91-45de-acb1-cead417a7636"/>
+    <recordType typeId="aeea40bb-e1e4-495c-8906-6710202a9398" valueTypeId="4d250ba8-68ec-43d7-a0ff-c81029ae5bb8"/>
+    <recordManagerType typeId="0ff420ea-6963-4ca0-9c16-9055dde27b24" valueTypeId="96e0ae34-3e9f-431c-b64f-bae4a1860b82"/>
+  </producedTypes>
+  <name>ПриоритетСкладов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приоритет складов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="2535f749-181b-4f9d-b57c-94d0ac94fd89">
+    <name>Приоритет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="29909c26-6c72-46c5-a23b-6810651ffd97">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
