@@ -50,6 +50,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.ОперативныйУчет</subsystems>
+  <subsystems>Subsystem.БухгалтерскийУчет</subsystems>
   <commonPictures>CommonPicture.ОперативныйУчет</commonPictures>
   <commonPictures>CommonPicture.БухгалтерскийУчет</commonPictures>
   <commonPictures>CommonPicture.Расчеты</commonPictures>
@@ -61,9 +62,11 @@
   <catalogs>Catalog.ФизическиеЛица</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
   <documents>Document.ПриходнаяНакладная</documents>
   <documents>Document.РасходнаяНакладная</documents>
   <documents>Document.НачислениеЗарплаты</documents>
+  <documents>Document.Операция</documents>
   <enums>Enum.УчетнаяПолитика</enums>
   <enums>Enum.ВидыНоменклатуры</enums>
   <reports>Report.ДвижениеТоваров</reports>

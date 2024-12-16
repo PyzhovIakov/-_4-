@@ -94,7 +94,10 @@
   <createOnInput>DontUse</createOnInput>
   <fullTextSearch>Use</fullTextSearch>
   <type>
+    <types>CatalogRef.Организации</types>
     <types>CatalogRef.Номенклатура</types>
+    <types>CatalogRef.Склады</types>
+    <types>DocumentRef.ПриходнаяНакладная</types>
   </type>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
@@ -110,6 +113,30 @@
       <code>000000001</code>
       <type>
         <types>CatalogRef.Номенклатура</types>
+      </type>
+    </items>
+    <items id="6de3c596-658f-4298-8acb-995a229b83af">
+      <name>Организация</name>
+      <description>Организация</description>
+      <code>000000002</code>
+      <type>
+        <types>CatalogRef.Организации</types>
+      </type>
+    </items>
+    <items id="fc29b27e-1ead-4961-b016-7cc08cb7255e">
+      <name>Склад</name>
+      <description>Склад</description>
+      <code>000000003</code>
+      <type>
+        <types>CatalogRef.Склады</types>
+      </type>
+    </items>
+    <items id="c4b11798-3060-4b7e-926b-c3ca98f0dafc">
+      <name>Партия</name>
+      <description>Партия</description>
+      <code>000000004</code>
+      <type>
+        <types>DocumentRef.ПриходнаяНакладная</types>
       </type>
     </items>
   </predefined>
