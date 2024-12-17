@@ -194,4 +194,19 @@
       </code>
     </items>
   </predefined>
+  <attributes uuid="c4feabb0-4645-4991-aabc-ccea0004ec9e">
+    <name>Алгоритм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Алгоритм</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Алгоритмы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:ChartOfCalculationTypes>

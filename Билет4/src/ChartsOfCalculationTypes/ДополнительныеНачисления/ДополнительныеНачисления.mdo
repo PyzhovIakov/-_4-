@@ -197,4 +197,19 @@
       <leading>ChartOfCalculationTypes.ОсновныеНачисления.Тариф</leading>
     </items>
   </predefined>
+  <attributes uuid="8ce7d8f8-29bd-48fd-962c-63a13e686fcc">
+    <name>Алгоритм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Алгоритм</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Алгоритмы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:ChartOfCalculationTypes>

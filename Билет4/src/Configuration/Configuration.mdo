@@ -72,6 +72,7 @@
   <documents>Document.КупляПродажа</documents>
   <enums>Enum.УчетнаяПолитика</enums>
   <enums>Enum.ВидыНоменклатуры</enums>
+  <enums>Enum.Алгоритмы</enums>
   <reports>Report.ДвижениеТоваров</reports>
   <reports>Report.ПродажиМеждуОрганизациями</reports>
   <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f232c641-9e90-4534-9015-d4c25ace9475">
+  <producedTypes>
+    <refType typeId="c4c3cd85-af10-4448-9eec-32e42eabfa22" valueTypeId="715891a9-1ff3-48f8-963e-be5fecfa1bcc"/>
+    <listType typeId="573c7556-e467-46d7-95eb-e29efeba8b8b" valueTypeId="94d0c30b-6740-4ae3-bd13-92b8f4e34b1b"/>
+    <managerType typeId="85cd61aa-0c37-4031-88a9-c6c1d47e6218" valueTypeId="20878031-d475-46bb-8260-0ca03a8bd04d"/>
+  </producedTypes>
+  <name>Алгоритмы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Алгоритмы</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0f06c555-4493-4a5f-badb-99afa383eef5">
+    <name>РасчетПримии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчет примии</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ed9c0ae3-aae0-41f7-8396-e68451914c41">
+    <name>РасчетТарифа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчет тарифа</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
