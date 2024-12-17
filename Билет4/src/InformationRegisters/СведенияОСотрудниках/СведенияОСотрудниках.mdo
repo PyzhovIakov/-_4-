@@ -53,10 +53,10 @@
   <mainFilterOnPeriod>true</mainFilterOnPeriod>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="60e0fa05-8fe1-4963-b2db-abd9c4e1c9c5">
-    <name>Оклад</name>
+    <name>Тариф</name>
     <synonym>
       <key>ru</key>
-      <value>Оклад</value>
+      <value>Тариф</value>
     </synonym>
     <type>
       <types>Number</types>

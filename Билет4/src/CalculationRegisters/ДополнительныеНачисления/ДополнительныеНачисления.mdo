@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CalculationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7810ec45-6de2-48a7-8267-3234eae4c81c">
+  <producedTypes>
+    <selectionType typeId="f240b835-6c53-484d-a990-8df409510b69" valueTypeId="e6377d28-c98f-4127-96a2-509a134861fe"/>
+    <listType typeId="bbd0b5c4-072f-4d45-bd49-77ce66794ac4" valueTypeId="148fc756-fcfd-47dd-8793-e697a33d1cf2"/>
+    <managerType typeId="de8620f7-7684-4a0b-bb52-373f3ad3658c" valueTypeId="b1ba794e-8dbd-4928-ac4b-04fc722b2ee9"/>
+    <recordSetType typeId="5f07f3f0-6a2c-4e07-97ae-10f7fdceed3b" valueTypeId="c6956878-7252-4c9f-bc97-17cc8ad15e2e"/>
+    <recordKeyType typeId="fffd7e25-9b91-4383-b8a9-e88799869236" valueTypeId="272d6aa4-f2f3-4207-a0f2-72953454dc6c"/>
+    <recordType typeId="b2ede807-9dd3-45bd-9853-9c906e80624a" valueTypeId="b4d700ab-789b-427d-b17c-7e5470ae24bc"/>
+    <recalcsType typeId="21d176e5-1319-42f3-a45d-947b5da1b1d9" valueTypeId="63bcd48d-d5e8-4fc2-8ae1-489e6007418a"/>
+  </producedTypes>
+  <name>ДополнительныеНачисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные начисления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <periodicity>Month</periodicity>
+  <basePeriod>true</basePeriod>
+  <chartOfCalculationTypes>ChartOfCalculationTypes.ДополнительныеНачисления</chartOfCalculationTypes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ec17d377-beb8-43be-97dd-c98ddd5bd242">
+    <name>Результат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="8d86ab00-c520-49b6-9e52-2ff4a8ca0432">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+  <dimensions uuid="f33f24b0-6b13-4266-80d6-0124de79d750">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+  <recalculations uuid="3d439b14-953e-4f5a-9ae1-99aff084281f">
+    <producedTypes>
+      <recordType typeId="2a7bae15-f8fb-424e-b96b-caa7b20b14cc" valueTypeId="0b7c9781-832e-42ea-a545-ad1fdd60d0e1"/>
+      <managerType typeId="37724e6a-23b0-41d1-b500-4db5cafd8b91" valueTypeId="4af5d662-289e-4328-b838-745fcb9cd9c8"/>
+      <recordSetType typeId="b41e1eb4-6be4-44ce-80bb-88fdea39a50d" valueTypeId="2fb97d5a-b0ea-4a64-996b-c01ea0a8246f"/>
+    </producedTypes>
+    <name>ПерерасчетПремии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перерасчет премии</value>
+    </synonym>
+    <dimensions uuid="fb345afd-f01c-4417-a93f-ece3eb35c6e4">
+      <name>Подразделение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подразделение</value>
+      </synonym>
+      <registerDimension>CalculationRegister.ДополнительныеНачисления.Dimension.Подразделение</registerDimension>
+      <leadingRegisterData>CalculationRegister.ОсновныеНачисления.Dimension.Подразделение</leadingRegisterData>
+    </dimensions>
+  </recalculations>
+</mdclass:CalculationRegister>

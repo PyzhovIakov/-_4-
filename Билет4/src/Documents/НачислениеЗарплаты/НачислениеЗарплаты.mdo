@@ -64,6 +64,9 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecords>CalculationRegister.ОсновныеНачисления</registerRecords>
+  <registerRecords>CalculationRegister.ДополнительныеНачисления</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <tabularSections uuid="156dc1c0-c492-47f7-af6b-398795fb7c83">
@@ -119,8 +122,6 @@
         <value>Вид расчета</value>
       </synonym>
       <type>
-        <types>ChartOfCalculationTypesRef.ДополнительныеНачисления</types>
-        <types>ChartOfCalculationTypesRef.Удержания</types>
         <types>ChartOfCalculationTypesRef.ОсновныеНачисления</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
@@ -162,17 +163,71 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="17452e63-2ff1-427a-8f58-2c1003d769b4">
-      <name>Размер</name>
+  </tabularSections>
+  <tabularSections uuid="49481b0a-c059-49f5-a07c-3dc27950fe41">
+    <producedTypes>
+      <objectType typeId="a038be70-1cc0-441f-b8e4-671ea6692881" valueTypeId="c5316a91-92df-4ab6-b939-d279b8246c48"/>
+      <rowType typeId="b690f520-99b2-4572-92f6-4a7f1cdbd199" valueTypeId="254aea74-a8e4-402f-8179-d392b9de3c16"/>
+    </producedTypes>
+    <name>ДополнительныеНачисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные начисления</value>
+    </synonym>
+    <attributes uuid="79ab6273-5079-4043-920a-4fc816750627">
+      <name>Сотрудник</name>
       <synonym>
         <key>ru</key>
-        <value>Размер</value>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ФизическиеЛица</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4e6f1a1a-285f-4461-b75d-22cfc525e9cb">
+      <name>Подразделение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подразделение</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Подразделения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="25777ed6-4cc1-4ef0-a85e-601d7ceafa7d">
+      <name>ВидРасчета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид расчета</value>
+      </synonym>
+      <type>
+        <types>ChartOfCalculationTypesRef.ДополнительныеНачисления</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ad8e1b16-2ef8-41f2-b286-28bb461dde49">
+      <name>Процент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Процент</value>
       </synonym>
       <type>
         <types>Number</types>
         <numberQualifiers>
-          <precision>10</precision>
+          <precision>5</precision>
           <scale>2</scale>
+          <nonNegative>true</nonNegative>
         </numberQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
