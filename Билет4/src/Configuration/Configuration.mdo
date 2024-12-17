@@ -67,6 +67,7 @@
   <documents>Document.РасходнаяНакладная</documents>
   <documents>Document.НачислениеЗарплаты</documents>
   <documents>Document.Операция</documents>
+  <documents>Document.КупляПродажа</documents>
   <enums>Enum.УчетнаяПолитика</enums>
   <enums>Enum.ВидыНоменклатуры</enums>
   <reports>Report.ДвижениеТоваров</reports>
