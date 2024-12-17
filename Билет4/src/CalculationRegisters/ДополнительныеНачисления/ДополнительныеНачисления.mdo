@@ -82,18 +82,18 @@
     <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
   </dimensions>
-  <recalculations uuid="3d439b14-953e-4f5a-9ae1-99aff084281f">
+  <recalculations uuid="f689bb4b-443c-48a9-a44b-65bd9e638437">
     <producedTypes>
-      <recordType typeId="2a7bae15-f8fb-424e-b96b-caa7b20b14cc" valueTypeId="0b7c9781-832e-42ea-a545-ad1fdd60d0e1"/>
-      <managerType typeId="37724e6a-23b0-41d1-b500-4db5cafd8b91" valueTypeId="4af5d662-289e-4328-b838-745fcb9cd9c8"/>
-      <recordSetType typeId="b41e1eb4-6be4-44ce-80bb-88fdea39a50d" valueTypeId="2fb97d5a-b0ea-4a64-996b-c01ea0a8246f"/>
+      <recordType typeId="0b694e2f-b0a9-4740-bae3-d670ef524747" valueTypeId="94b49f39-c1c0-4025-9e71-51650656f108"/>
+      <managerType typeId="a792a8d3-5878-4eb4-9aaf-be9af669384a" valueTypeId="88ff140f-87a2-4fe1-b013-b228e9ca8014"/>
+      <recordSetType typeId="7bdf5bbc-076c-4020-8205-5310e8f07579" valueTypeId="bf03bd45-bb48-44f3-b19f-3f2261752e3f"/>
     </producedTypes>
-    <name>ПерерасчетПремии</name>
+    <name>ПерерасчетЗарплаты</name>
     <synonym>
       <key>ru</key>
-      <value>Перерасчет премии</value>
+      <value>Перерасчет зарплаты</value>
     </synonym>
-    <dimensions uuid="fb345afd-f01c-4417-a93f-ece3eb35c6e4">
+    <dimensions uuid="9184ce83-479c-410d-8921-a50adf2106e2">
       <name>Подразделение</name>
       <synonym>
         <key>ru</key>
@@ -101,6 +101,15 @@
       </synonym>
       <registerDimension>CalculationRegister.ДополнительныеНачисления.Dimension.Подразделение</registerDimension>
       <leadingRegisterData>CalculationRegister.ОсновныеНачисления.Dimension.Подразделение</leadingRegisterData>
+    </dimensions>
+    <dimensions uuid="ea8b1b7f-51c3-40e8-b1e9-e882c60157b5">
+      <name>Сотрудник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <registerDimension>CalculationRegister.ДополнительныеНачисления.Dimension.Сотрудник</registerDimension>
+      <leadingRegisterData>CalculationRegister.ОсновныеНачисления.Dimension.Сотрудник</leadingRegisterData>
     </dimensions>
   </recalculations>
 </mdclass:CalculationRegister>

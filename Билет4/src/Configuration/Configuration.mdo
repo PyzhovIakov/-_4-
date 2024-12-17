@@ -75,6 +75,8 @@
   <enums>Enum.Алгоритмы</enums>
   <reports>Report.ДвижениеТоваров</reports>
   <reports>Report.ПродажиМеждуОрганизациями</reports>
+  <reports>Report.ПремияСотрудников</reports>
+  <reports>Report.ПерерасчетЗарплаты</reports>
   <dataProcessors>DataProcessor.КонсольЗапросов</dataProcessors>
   <dataProcessors>DataProcessor.ЗаполнениеГрафика</dataProcessors>
   <informationRegisters>InformationRegister.РегистрАдресации</informationRegisters>

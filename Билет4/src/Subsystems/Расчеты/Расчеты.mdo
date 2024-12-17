@@ -11,6 +11,8 @@
     <picture>CommonPicture.Расчеты</picture>
   </picture>
   <content>DataProcessor.ЗаполнениеГрафика</content>
+  <content>Report.ПремияСотрудников</content>
+  <content>Report.ПерерасчетЗарплаты</content>
   <subsystems>Документы</subsystems>
   <subsystems>Справочники</subsystems>
   <subsystems>Регистры</subsystems>

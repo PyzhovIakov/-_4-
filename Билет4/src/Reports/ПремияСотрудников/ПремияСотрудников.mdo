@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73886e20-699f-43c5-b875-209e52727c82">
+  <producedTypes>
+    <objectType typeId="218e0654-ff0b-4e51-93f9-e101a9d9b747" valueTypeId="e497cace-f705-495f-b7bf-d8282e3ee520"/>
+    <managerType typeId="f3bdd55b-103b-48f5-abaf-f455a52cd043" valueTypeId="36dff500-cb2f-45b3-a41b-a5cfe0cdb5ed"/>
+  </producedTypes>
+  <name>ПремияСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Премия сотрудников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ПремияСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="5b318c6a-273a-4630-a764-938286fa8b1c">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

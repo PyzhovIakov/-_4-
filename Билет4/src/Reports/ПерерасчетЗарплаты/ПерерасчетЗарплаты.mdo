@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e51eb2e2-de6b-4378-ba00-2456fd39d62a">
+  <producedTypes>
+    <objectType typeId="bcdbbc48-2a26-4702-9906-e56a352166f1" valueTypeId="97cac03c-10d6-4fad-a3d9-c9247429fad4"/>
+    <managerType typeId="9c5757fd-d338-4a9c-b325-4789091a38d2" valueTypeId="6679c96c-b186-480d-8e3b-4b457017381a"/>
+  </producedTypes>
+  <name>ПерерасчетЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перерасчет зарплаты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ПерерасчетЗарплаты.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="fff8e8e9-7ebb-4d37-88d6-fed272e8106e">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
